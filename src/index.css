@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Inconsolata&family=Lobster&family=Nunito&display=swap");
+
+:root {
+  --header-font: "Lobster", fantasy;
+  --normal-font: nunito, sans-serif;
+  --alternative-font: bitter, sans-serif;
+  --mono-font: inconsolata, monospace;
+  --intense-color: #5aa3cd;
+  --light-color: #287cb0;
+  --dark-color: #063d6c;
+
+  background: #000;
+  height: 88vh;
+  color: #eee;
+}
+
+body {
+  font-family: var(--normal-font);
+  font-size: 22px;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 8px var(--dark-color), 2px 2px 3px #000;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+a {
+  color: var(--intense-color);
+
+  &:hover {
+    color: yellow;
+  }
+}
+
+em {
+  padding: 0 4px;
+}
+
+button {
+  font-family: var(--normal-font);
+  font-size: 1.25rem;
+  border: 2px solid var(--light-color);
+  background: var(--dark-color);
+  margin: 10px;
+  padding: 4px 15px;
+  color: #fff;
+  user-select: none;
+
+  &:hover {
+    background: var(--light-color);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    padding: 15px 20px;
+  }
+}
+
+body.mobile button:hover {
+  background: var(--dark-color);
+}
+
+body.mobile .container {
+  height: 100%;
+}
+
+/* Custom Tippy */
+
+.tippy-box .tippy-content {
+  background-color: #111;
+  padding: 15px;
+}
+
+.tippy-box .tippy-arrow {
+  color: #111;
+}
+
+.tippy-box .tippy-content hr {
+  border: 0;
+  border-top: 1px solid #777;
+}

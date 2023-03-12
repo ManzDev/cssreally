@@ -1,0 +1,34 @@
+{
+  "name": "cssreally",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "postcss-nesting": "^11.2.1",
+    "stylelint": "15.2.0",
+    "stylelint-config-standard": "30.0.1",
+    "vite": "^4.1.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "prismjs": "^1.29.0",
+    "tippy.js": "^6.3.7",
+    "vue": "^3.2.47"
+  }
+}

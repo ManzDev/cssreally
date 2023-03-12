@@ -1,0 +1,67 @@
+.question p {
+  padding: 5px 45px;
+}
+
+.levels {
+  position: absolute;
+  font-size: 1rem;
+  right: -15px;
+  top: -15px;
+  padding: 5px 8px;
+  border: 2px solid var(--light-color);
+  background: linear-gradient(51deg, var(--light-color), var(--dark-color));
+  user-select: none;
+}
+
+.hint pre {
+  font-family: Inconsolata, monospace;
+  font-size: 22px;
+  letter-spacing: -1px;
+  background: #080808 linear-gradient(to right, #111 5%, #000 10% 100%);
+  border-radius: 0;
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* min-width: 800px; */
+
+  & code {
+    tab-size: 2;
+  }
+}
+
+.options {
+  padding: 25px 10px 60px;
+}
+
+.question .author {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 10px;
+  bottom: 4px;
+  color: #ddd;
+}
+
+.question time {
+  position: absolute;
+  font-size: 1.2rem;
+  right: 10px;
+  bottom: 4px;
+  color: #ddd;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #0004;
+  display: flex;
+  justify-content: end;
+
+  & .fill-bar {
+    height: 100%;
+  }
+}
