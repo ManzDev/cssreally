@@ -120,7 +120,7 @@
 	will-change: transform;
 }`,options:["Le da prioridad a la propiedad CSS indicada","Realiza una animación de forma anticipada","Prepara el navegador ante operaciones costosas","Es una propiedad obsoleta que no debe usarse"],solution:2},{question:"¿Qué realiza la propiedad display con el valor contents?",hint:`.element {
 	display: contents;
-}`,options:["Muestra sólo el contenido, sin aspectos visuales","Establece que su padre, sea el padre de sus elementos hijos","No existe ese valor para display","Establece el estilo de su contenido a todos sus elementos hijos"],solution:1},{question:"¿Qué elementos selecciona este selector CSS?",hint:`.item:nth-child(2 of .special) {
+}`,options:["Muestra sólo el contenido, sin aspectos visuales","Establece que su padre sea el padre de sus elementos hijos","No existe ese valor para display","Establece el estilo de su contenido a todos sus elementos hijos"],solution:1},{question:"¿Qué elementos selecciona este selector CSS?",hint:`.item:nth-child(2 of .special) {
 	background: indigo;
 }`,options:["El segundo elemento con clase `.special` que además tiene `.item`","El segundo elemento con clase `.special` que sea hija de `.item`","Los dos primeros elementos `.item` que además tengan `.special`","Esa sintaxis no existe en :nth-child()"],solution:0},{question:"¿Qué realiza el siguiente fragmento de código?",hint:`.element {
 	font-feature-settings: "frac" 1;
