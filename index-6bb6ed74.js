@@ -55,7 +55,7 @@
 }`,options:["La primera, es rgba() en lugar de rgb()","La segunda, le faltan las comas a hsl()","La tercera, le sobran las comas a hwb()","La cuarta, la función de color lch() no existe"],solution:2},{question:"¿Para que sirve la propiedad CSS table-layout?",hint:`table {
 	table-layout: auto;
 }`,options:["Para establecer un esquema de maquetación en tablas (flex, grid, etc...)","Para hacer estructuras responsive de layouts definidos de tablas","Para determinar la forma en que se crea la tabla","No existe esa propiedad."],solution:2},{question:"Este selector CSS tiene varios hijos que comparten un mismo contenedor. ¿Cómo podemos simplificarlo?",hint:`.parent .element,
-.parent .item
+.parent .item,
 .parent .block {
 	color: red
 }`,options:["No se puede, sólo cambiar el HTML","Insertar los hijos dentro de un :is()","Insertar los hijos dentro de un :has()","Insertar los hijos dentro de un :or()"],solution:1},{question:"¿Cuál es la diferencia entre :is() y :where()?",hint:`.parent :is(.element, .item) {
