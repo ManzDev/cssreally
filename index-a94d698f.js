@@ -77,10 +77,10 @@
 	border-image-source: url("image.png")
 	border-image-slice: 110;
 	border-image-width: 42px;
-}`,options:["Crear bordes con imágenes","Crear bordes con gradientes","Crear bordes con imágenes extensibles con la técnica 9-slice","Todas las anteriores son correctas"],solution:3},{question:"¿Qué hace la siguiente regla de CSS?",hint:'@import url("theme.css") layer("theme")',options:["Carga un .css que sólo afectará a los elementos con clase `.theme`","Idem al anterior, pero afectando también a los elementos hijos","Carga un .css en una capa, manejando su especificidad previamente","La regla @import y la función url() existen, pero layer() no existe"],solution:2},{question:"¿Cuál es la principal diferencia entre box-shadow y la función drop-shadow() aplicada sobre una imagen con fondo de contorno transparente?",hint:`.element {
+}`,options:["Crear bordes con imágenes","Crear bordes con gradientes","Crear bordes con imágenes extensibles con la técnica 9-slice","Todas las anteriores son correctas"],solution:3},{question:"¿Qué hace la siguiente regla de CSS?",hint:'@import url("theme.css") layer("theme")',options:["Carga un .css que sólo afectará a los elementos con clase `.theme`","Idem al anterior, pero afectando también a los elementos hijos","Carga un .css en una capa, manejando su especificidad previamente","La regla @import y la función url() existen, pero layer() no existe"],solution:2},{question:"Tenemos una imagen de un objeto con fondo transparente y le aplicamos una sombra, ¿cuál es la diferencia entre estas dos?",hint:`.element {
 	box-shadow: 5px 5px 15px #000;
 	filter: drop-shadow(5px 5px 15px #000);
-}`,options:["La propiedad box-shadow respeta el contorno de la imagen","La función drop-shadow() respeta el contorno de la imagen","Ambas respetan el contorno de la imagen","Ninguna respeta el contorno de la imagen"],solution:1},{question:"En el siguiente código hay un error. ¿Cómo se comporta el navegador?",hint:`.parent .element {
+}`,options:["La propiedad box-shadow respeta el contorno del objeto","La función drop-shadow() respeta el contorno del objeto","Ambas respetan el contorno del objeto","Ninguna respeta el contorno del objeto"],solution:1},{question:"En el siguiente código hay un error. ¿Cómo se comporta el navegador?",hint:`.parent .element {
 	width: 400px;
 	heigth: 300px;
 	color: red
@@ -120,7 +120,7 @@
 	will-change: transform;
 }`,options:["Le da prioridad a la propiedad CSS indicada","Realiza una animación de forma anticipada","Prepara el navegador ante operaciones costosas","Es una propiedad obsoleta que no debe usarse"],solution:2},{question:"¿Qué realiza la propiedad display con el valor contents?",hint:`.element {
 	display: contents;
-}`,options:["Muestra sólo el contenido, sin aspectos visuales","Establece que su padre, sea el padre de sus elementos hijos","No existe ese valor para display","Establece el estilo de su contenido a todos sus elementos hijos"],solution:1},{question:"¿Qué elementos selecciona este selector CSS?",hint:`.item:nth-child(2 of .special) {
+}`,options:["Muestra sólo el contenido, sin aspectos visuales","Establece que su padre sea el padre de sus elementos hijos","No existe ese valor para display","Establece el estilo de su contenido a todos sus elementos hijos"],solution:1},{question:"¿Qué elementos selecciona este selector CSS?",hint:`.item:nth-child(2 of .special) {
 	background: indigo;
 }`,options:["El segundo elemento con clase `.special` que además tiene `.item`","El segundo elemento con clase `.special` que sea hija de `.item`","Los dos primeros elementos `.item` que además tengan `.special`","Esa sintaxis no existe en :nth-child()"],solution:0},{question:"¿Qué realiza el siguiente fragmento de código?",hint:`.element {
 	font-feature-settings: "frac" 1;
